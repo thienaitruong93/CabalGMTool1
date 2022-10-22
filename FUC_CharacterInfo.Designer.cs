@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -1288,7 +1288,6 @@ public class FUC_CharacterInfo : UserControl
             this.txUserName.Name = "txUserName";
             this.txUserName.Size = new System.Drawing.Size(84, 23);
             this.txUserName.TabIndex = 4;
-            this.txUserName.Text = "ai1";
             // 
             // txUserNum
             // 
@@ -1302,26 +1301,26 @@ public class FUC_CharacterInfo : UserControl
             // rbUserName
             // 
             this.rbUserName.AutoSize = true;
-            this.rbUserName.Checked = true;
             this.rbUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rbUserName.Location = new System.Drawing.Point(127, 27);
             this.rbUserName.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.rbUserName.Name = "rbUserName";
             this.rbUserName.Size = new System.Drawing.Size(70, 21);
             this.rbUserName.TabIndex = 3;
-            this.rbUserName.TabStop = true;
             this.rbUserName.Text = "Name:";
             this.rbUserName.UseVisualStyleBackColor = true;
             // 
             // rbUserNum
             // 
             this.rbUserNum.AutoSize = true;
+            this.rbUserNum.Checked = true;
             this.rbUserNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rbUserNum.Location = new System.Drawing.Point(16, 27);
             this.rbUserNum.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.rbUserNum.Name = "rbUserNum";
             this.rbUserNum.Size = new System.Drawing.Size(62, 21);
             this.rbUserNum.TabIndex = 2;
+            this.rbUserNum.TabStop = true;
             this.rbUserNum.Text = "Num:";
             this.rbUserNum.UseVisualStyleBackColor = true;
             this.rbUserNum.CheckedChanged += new System.EventHandler(this.rbUserNum_CheckedChanged);
